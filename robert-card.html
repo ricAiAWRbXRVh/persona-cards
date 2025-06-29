@@ -1,0 +1,338 @@
+<!-- Persona Card - Robert Lee -->
+<section id="persona-robert" class="persona-responsive">
+  <div class="cards">
+    <!-- Profile Card -->
+    <div class="persona-card profile-card">
+      <div class="profile">
+        <div class="avatar" role="presentation" aria-hidden="true"></div>
+        <div class="info">
+          <h4 class="name">Robert Lee</h4>
+          <p class="meta">40 / Male</p>
+          <p class="meta secondary">Restaurant Owner</p>
+        </div>
+      </div>
+      <p class="tagline">
+        A passionate owner focused on quality and service. He values simple, reliable tools that help him stay efficient without adding complexity.
+      </p>
+    </div>
+    <!-- Divider 1 -->
+    <div class="persona-divider divider-1"></div>
+    <div class="main-cols">
+      <div class="persona-card jobs-card">
+        <div class="section">
+          <h5 class="section-title">Needs & Expectations</h5>
+          <ul class="section-list">
+            <li>Simple, reliable setup</li>
+            <li>Operational efficiency</li>
+            <li>Better guest experience</li>
+            <li>Financial insight</li>
+          </ul>
+        </div>
+        <div class="section">
+          <h5 class="section-title">Challenges</h5>
+          <ul class="section-list frustrations-list">
+            <li>Not enough time for setup</li>
+            <li>Unfamiliar with digital tools</li>
+            <li>Hard to train staff</li>
+            <li>Avoids disrupting daily ops</li>
+          </ul>
+        </div>
+      </div>
+      <div class="persona-divider divider-2"></div>
+      <div class="persona-card habits-card">
+        <div class="section">
+          <h5 class="section-title">User Traits</h5>
+          <ul class="section-list">
+            <li>Detail-oriented and pragmatic</li>
+            <li>Prefers in-person interactions</li>
+            <li>Values strong relationships</li>
+            <li>Avoids overly complex systems</li>
+          </ul>
+        </div>
+        <div class="section">
+          <h5 class="section-title">Tools</h5>
+          <ul class="section-list">
+            <li>Mobile phone</li>
+            <li>Laptop</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p class="caption">Seasoned Restaurateur</p>
+</section>
+
+<style>
+#persona-robert .avatar {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: #D9D9D9 url('https://static1.squarespace.com/static/6155047603b0f348dab1ec66/t/6860b1de46d4fc2474af40a1/1751167454020/Robert.png') center/cover no-repeat;
+  flex: none;
+}
+#persona-robert, #persona-robert * {
+  color: #EDEDED;
+  box-sizing: border-box;
+}
+#persona-robert .info .meta.secondary, #persona-robert .section-title {
+  color: #B3B3B3 !important;
+}
+#persona-robert .caption {
+  color: #555 !important;
+}
+#persona-robert {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+#persona-robert .cards {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+  background: #111111;
+  border-radius: 8px;
+  overflow: hidden;
+  gap: 0;
+}
+#persona-robert .profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 32px;
+  gap: 32px;
+  flex: 1 1 0%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+#persona-robert .main-cols {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex: 2 1 0%;
+  min-width: 0;
+  width: 100%;
+}
+#persona-robert .jobs-card, #persona-robert .habits-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+  padding: 32px;
+  flex: 1 1 0%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+#persona-robert .divider-1, #persona-robert .divider-2 {
+  background: linear-gradient(
+    180deg,
+    rgba(85, 85, 85, 0) 0.48%,
+    rgba(85,85,85,0.7) 29.81%,
+    #555555 49.99%,
+    rgba(85,85,85,0.7) 69.71%,
+    rgba(85, 85, 85, 0) 100%
+  );
+}
+#persona-robert .divider-1,
+#persona-robert .divider-2 {
+  width: 1px;
+  height: auto;
+  align-self: stretch;
+  margin: 0;
+}
+#persona-robert .profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+#persona-robert .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: max-content;
+  min-width: 0;
+  align-items: flex-start;
+}
+#persona-robert .info .name,
+#persona-robert .info .meta,
+#persona-robert .info .meta.secondary {
+  width: max-content;
+  min-width: 0;
+  margin: 0;
+}
+#persona-robert .info .name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.3;
+  color: #EDEDED;
+  word-break: normal;
+}
+#persona-robert .info .meta {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #EDEDED;
+  word-break: normal;
+}
+#persona-robert .info .meta.secondary {
+  font-weight: 400;
+  font-size: 14px;
+  word-break: normal;
+}
+#persona-robert .tagline {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.3;
+  margin: 0;
+  color: #EDEDED;
+  width: 100%;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+#persona-robert .section-title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 8px 0;
+  word-break: break-word;
+}
+#persona-robert .section-list {
+  margin: 0;
+  padding-left: 1em;
+  list-style: disc;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #EDEDED;
+  word-break: break-word;
+  white-space: normal;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+#persona-robert .section-list li + li {
+  margin-top: .5em;
+}
+#persona-robert .frustrations-list {
+  word-break: break-word;
+  white-space: normal;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+#persona-robert .caption {
+  margin: 16px 0 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+/* TABLET (768-1023px) - Perfect Divider Gaps */
+@media (min-width: 768px) and (max-width: 1023px) {
+  #persona-robert .cards {
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+  }
+  #persona-robert .profile-card {
+    width: 100%;
+    padding: 32px 32px 0 32px;
+    gap: 32px;
+    align-items: stretch;
+  }
+  #persona-robert .divider-1 {
+    width: calc(100% - 64px);
+    height: 1px;
+    margin: 32px 32px 0 32px;
+    background: linear-gradient(
+      90deg,
+      rgba(85, 85, 85, 0) 0.48%,
+      rgba(85,85,85,0.7) 29.81%,
+      #555555 49.99%,
+      rgba(85,85,85,0.7) 69.71%,
+      rgba(85, 85, 85, 0) 100%
+    );
+    align-self: center;
+  }
+  #persona-robert .main-cols {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+    gap: 0;
+    padding: 0 32px;
+    box-sizing: border-box;
+  }
+  #persona-robert .jobs-card, #persona-robert .habits-card {
+    padding: 32px 0;
+    gap: 16px;
+  }
+  #persona-robert .divider-2 {
+    margin: 0 32px;
+  }
+}
+
+/* MOBILE (0-767px): Stack all 3, 32px padding, 2 horizontal dividers */
+@media (max-width: 767px) {
+  #persona-robert .cards {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    background: #111111;
+    border-radius: 8px;
+    overflow: hidden;
+    gap: 0;
+  }
+  #persona-robert .profile-card,
+  #persona-robert .jobs-card,
+  #persona-robert .habits-card {
+    padding: 32px 32px 0 32px !important;
+    gap: 32px;
+    align-items: stretch;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    flex: none;
+  }
+  #persona-robert .habits-card {
+    padding-bottom: 32px !important;
+  }
+  #persona-robert .main-cols {
+    flex-direction: column !important;
+    display: flex !important;
+    padding: 0;
+    gap: 0;
+  }
+  #persona-robert .divider-1,
+  #persona-robert .divider-2 {
+    width: calc(100% - 64px);
+    height: 1px;
+    margin: 32px 32px 0 32px;
+    background: linear-gradient(
+      90deg,
+      rgba(85, 85, 85, 0) 0.48%,
+      rgba(85,85,85,0.7) 29.81%,
+      #555555 49.99%,
+      rgba(85,85,85,0.7) 69.71%,
+      rgba(85, 85, 85, 0) 100%
+    );
+    align-self: center;
+    transform: none;
+    display: block;
+  }
+  #persona-robert .divider-2 {
+    margin-bottom: 0;
+  }
+}
+</style>
